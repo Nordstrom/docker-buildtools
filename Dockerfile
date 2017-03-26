@@ -1,4 +1,4 @@
-FROM quay.io/nordstrom/baseimage-ubuntu:16.04
+FROM quay.io/nordstrom/awscli:1.11.30-1
 MAINTAINER Kubernetes Platform Team "techk8s@nordstrom.com"
 
 
