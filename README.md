@@ -5,3 +5,4 @@ Basic build tools in a container
 
 Tools included:
 * make
+* jq
