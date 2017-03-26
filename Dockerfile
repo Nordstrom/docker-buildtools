@@ -3,3 +3,4 @@ MAINTAINER Kubernetes Platform Team "techk8s@nordstrom.com"
 
 RUN apt-get update && apt-get install -y \
   build-essential \
+  jq \
