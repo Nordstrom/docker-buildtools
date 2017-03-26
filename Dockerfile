@@ -10,4 +10,3 @@ RUN apt-get update && apt-get install -y \
 
 COPY bin/* bin/
 
-USER ubuntu
