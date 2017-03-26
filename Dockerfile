@@ -6,6 +6,8 @@ USER root
 RUN apt-get update && apt-get install -y \
   build-essential \
   jq 
+  
+RUN cp /etc/ssl/nord-ca-certificates/* /etc/ssl/certs/
 
 
 COPY bin/* bin/
